@@ -1,0 +1,29 @@
+const country = "trinidad";
+const continent = "southamerica";
+
+console.log(country);
+
+console.log(continent);
+///////////////////////////////////////////////////////////////////////////////////
+
+const num1 = 24
+
+console.log("Hi, I am " + num1)
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+const var1 = 15;
+const var2 = "15";
+
+console.log(15 === "15");
