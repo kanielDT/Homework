@@ -1,34 +1,34 @@
-// function numRes(num1, num2){
-//     multiplication = num1 * num2
-//     console.log(multiplication + " is the answer")
-//     return 
-// }
+function numRes(num1, num2){
+    multiplication = num1 * num2
+    console.log(multiplication + " is the answer")
+    return 
+}
 
-// numRes(10000, 874)
+numRes(10000, 874)
 // /////////////////////////////////////////////////////////////////////////////////////
 
-// function assignGrade(score){
-//     Letter = score 
+function assignGrade(score){ 
     
-//     if(Letter === "90"){
-//         console.log("A = 90")
-//     }
-//     else if(Letter === "80"){
-//         console.log("B = 80")
-
-//     }
-//     else if(Letter === "70"){
-//         console.log("C = 70")
-//     }
-//     else if(Letter === "60"){
-//         console.log("D = 60")
-//     }
-//     else{
-//         console.log("fail")
-//     }
-//     return
-// }
-// assignGrade("80")
+    if(score >= 90){
+        console.log("A= " + score)
+    }
+    else if(score >= 80){
+        console.log("B= " + score)
+    }
+    else if(score >= 70){
+        console.log("C= " + score)
+    }
+    else if(score >= 60){
+        console.log("D= " + score)
+    }
+    else{
+        (score <= 59)
+        console.log("F= " + score)
+        
+    }
+    return
+}
+assignGrade("90")
 
 // ///////////////////////////////////////////////////////////////////////
 
@@ -42,8 +42,8 @@ const animals = [
 
 console.log(animals)
 totalAnimaals = animals.length
-fifthAnimal = [0]
-console.log(fifthAnimal)
+firstAnimal = [0]
+console.log(firstAnimal)
 
-//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 
